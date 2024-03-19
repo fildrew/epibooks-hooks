@@ -6,6 +6,7 @@ import Welcome from "./components/Welcome";
 import { Container } from "react-bootstrap";
 import BookList from "./components/BookList";
 import fantasy from "./data/fantasy.json";
+import HomeCarousel from './components/HomeCarousel'
 
 function App() {
     return (
@@ -13,6 +14,7 @@ function App() {
         <MyNavbar />
         <Container fluid>
           <Welcome />
+          <HomeCarousel />
           {/* <AllTheBooks /> */}
           <BookList books={fantasy} />
         </Container>
