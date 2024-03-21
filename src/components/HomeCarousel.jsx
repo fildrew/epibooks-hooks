@@ -19,7 +19,7 @@ const HomeCarousel = () => {
 
     return (
         <Carousel
-            style = {{width:"100%",height:"30%"}}>
+            style = {{width:"90%",height:"50%"}}>
             {books.map((book, index) => (
                 <Carousel.Item key={index}>
                     <img

@@ -9,4 +9,4 @@ const CommentList = ({ commentsToShow }) => (
   </ListGroup>
 )
 
-export default CommentList
+export default CommentList;
