@@ -23,7 +23,7 @@ const SingleBook = ({ book, selectedBook, changeSelectedBook }) => {
             style={{
               border: isSelected ? "3px solid red" : "none",
             }}
-            data-testid="book-card"
+           /*  data-testid="book-card" */
         />
         <Card.Body>
           <Card.Title style={{ color: "black"}}>{book.title}</Card.Title>

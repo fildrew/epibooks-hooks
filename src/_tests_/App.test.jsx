@@ -6,7 +6,7 @@ describe("fliter testing", () => {
         render(<App />);
         const filterInputField = screen.getByPlaceholderText(/Cerca un libro/i);
         fireEvent.change(filterInputField, { target: { value: "arrows" } });
-        const allTheBookCards = screen.getAllByTestId("book");
+        const allTheBookCards = screen.getAllByTestId('book');
         expect(allTheBookCards).toHaveLength(1);
     });
     
@@ -14,7 +14,7 @@ describe("fliter testing", () => {
         render(<App />);
         const filterInputField = screen.getByPlaceholderText(/Cerca un libro/i);
         fireEvent.change(filterInputField, { target: { value: "witcher" } });
-        const allTheBookCards = screen.getAllByTestId("book");
+        const allTheBookCards = screen.getAllByTestId('book');
         expect(allTheBookCards).toHaveLength(3);
     });
 });
